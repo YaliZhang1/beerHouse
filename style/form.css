@@ -1,0 +1,47 @@
+form {
+    background-color: #eee;
+    display: inline-block;
+    padding: 5px;
+  }
+  form span {
+    display: block;
+    width: 400px;
+    background-color: #eee;
+    margin: 10px 3px 3px 8px;
+  }
+  
+  form input {
+    width: 400px;
+    height: 45px;
+    margin: 0px 5px;
+    box-sizing: border-box;
+  }
+
+  form input[type="textarea"] {
+    height: 200px;
+  }
+  
+  form input[type="submit"] {
+    display: block;
+    margin: 10px 3px 3px 8px;
+    width: 360px;
+    height: 46px;
+    background-color: darkgrey;
+    color: white
+  }
+  h1{
+      text-align: center;
+  }
+  body{
+    background-color: #eee;
+  }  
+  select{
+    height: 45px;
+    width: 400px;
+  }
+
+  textarea{
+    width: 359px;
+    height: 200px;
+  }
+  

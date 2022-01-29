@@ -1,0 +1,61 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/style.css"/>
+        
+        <title>Order</title>
+        <link rel="stylesheet" href="style/form.css">
+    </head>
+   
+    <body>
+        <nav>
+        <!--here you will code in the navigation bar.-->
+            <div class="topnav">
+                <a class="logo" href="index.html"><img src="images/logo.png"></a>
+                <a class="active" href="index.html">Home</a>
+                <a href="all-beers.html">See All Beers</a>
+                <a class=" active" href="order.html">Order a Beers</a>
+                <a  href="register.html">Register</a>
+                <a  href="login.html">Log in</a>
+            </div>
+        </nav>
+        <center>
+            <h1>Order a beer</h1>
+                <form>
+                    <span>Brand</span>
+                    <select>
+                      <option selected disabled>Select a brand</option>   
+                      <option>Corona Extra 330ml</option>   
+                      <option>Stella Artois 500ml</option>   
+                      <option>Carlasberg 330ml</option>   
+                    </select>
+                    <br />
+            
+                    <span>Quantity</span>
+                    <input type="text" name="quantity" placeholder="Enter amount of beers(1-15)">
+                    <br />
+                    <span>Destination</span>
+                    <select>
+                        <option selected disabled>Select a destination</option>   
+                        <option>Sweden</option>   
+                        <option>Germany</option>   
+                        <option>USA</option>     
+                    </select>
+                    <br />
+                    <span>Enter you birthdate</span>
+                    <input type="date" name="enter you birthdate" placeholder="åååå-mm-dd">                   
+                    <br />
+                    <span for= "" > Got an option, comment, recommendation? Share it with us! </span>
+                    <textarea name= "" id= "" row= "10" placeholder = "Share your option with us!"></textarea>                  
+                    <br />
+                    <input type="submit" value="Login">
+                </form>
+        </center>
+        <footer>
+            <!--here is where you will code in your footer.content shown on the bottom of the page.-->
+            <hr/>
+            <p><em>&copy; 2020 &ndash; Beer Store</em></p>
+        </footer>
+    </body>
+</html>
